@@ -198,13 +198,13 @@
         <script>
             var ctx = document.getElementById("nuestroGrafico");
             var nuestroGrafico = new Chart(ctx, {
-                type: "line",
+                type: "bar",
                 data: {
-                    labels: ["Red", "Blue", "Yellow", "Green", "Cyan", "Magenta"],
+                    labels: ["Argentina", "Chile", "Colombia", "Ecuador", "Perú", "Venezuela"],
                     datasets: [
                         {
-                            label: "# of Votes",
-                            data: [12, 19, 3, 5, 2, 3],
+                            label: "Indice de competividad global",
+                            data: [57, 70, 62, 55, 61, 41],
                             backgroundColor: ["#FF0000", "#0000FF", "#FFFF00", "#00FF00", "#00FFFF", "#FF00FF"],
                             borderWidth: 1,
                         },
