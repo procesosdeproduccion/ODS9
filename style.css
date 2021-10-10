@@ -42,8 +42,8 @@ h5,
 h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
-   font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: 400;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 900;
 }
 
 a {
