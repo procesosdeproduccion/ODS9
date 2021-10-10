@@ -16,8 +16,8 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 
 :root {
     --primercolor: #FFAE3B;
-    --segundocolor: #005994; /* menos luminoso y más saturado que el primero */
-    --tercercolor: #0077C8; /* más luminoso y menos saturado que el primero */
+    --segundocolor: #FAFAFA; /* menos luminoso y más saturado que el primero */
+    --tercercolor: #005994; /* más luminoso y menos saturado que el primero */
     --colorclaro: rgba(255, 255, 255, 0.9);
     --coloroscuro: rgba(0, 0, 0, 0.9);
 }
@@ -52,7 +52,7 @@ a {
 }
 
 a:hover {
-    color: var(--colorclaro);
+    color: var(--coloroscuro);
     text-decoration: none;
 }
 
@@ -77,7 +77,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--colorclaro);
+    color: var(--coloroscuro);
 }
 
 @media (min-width: 576px) {
@@ -116,7 +116,7 @@ main {
 
 aside {
     background: var(--tercercolor);
-    color: var(--coloroscuro);
+    color: var(--colorclaro);
 }
 
 footer {
@@ -130,7 +130,7 @@ footer a {
 
 footer a:hover {
     text-decoration: none;
-    color: var(--coloroscuro);
+    color: var(--colorclaro);
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------
