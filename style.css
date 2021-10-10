@@ -27,7 +27,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     background: var(--segundocolor);
-    color: var(--colorclaro);
+    color: var(--coloroscuro);
 }
 
 strong {
