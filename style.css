@@ -24,7 +24,7 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 
 body {
     /* asignen aquí las tipografías y colores para todo texto */
-    font-family: "Andika New Basic", sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     background: var(--segundocolor);
     color: var(--colorclaro);
@@ -42,7 +42,7 @@ h5,
 h6,
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
-    font-family: "Dela Gothic One", cursive;
+   font-family: 'M PLUS Rounded 1c', sans-serif;
     font-weight: 400;
 }
 
